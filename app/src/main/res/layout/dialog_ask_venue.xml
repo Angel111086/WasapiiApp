@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_title_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Verify Location"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white" />
+
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            app:materialIcon="close"
+            app:materialIconColor="@android:color/white"
+            app:materialIconSize="24dp"
+            android:scaleType="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:id="@+id/btn_cancel" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Are you still at "/>
+
+        <TextView
+            android:id="@+id/tv_now_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold"
+            android:text=""/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtdialog_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+         />
+
+        <TextView
+            android:id="@+id/txtdialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No,select venue"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

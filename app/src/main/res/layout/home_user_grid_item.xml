@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_default_bubble"
+        />
+
+    <TextView
+        android:id="@+id/tv_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/light_font"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="satish" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/light_font"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="30 m"
+        android:layout_below="@+id/tv_venueName"
+        android:layout_alignStart="@+id/photo"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_venueName"
+        android:layout_width="@dimen/dimen_150dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/light_font"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Tantra club"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/photo" />
+
+
+</RelativeLayout>

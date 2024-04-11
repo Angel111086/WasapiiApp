@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Me"
+        android:id="@+id/nav_item_inbox"
+
+        />
+
+    <item android:title="Settings"
+        android:id="@+id/nav_item_sent"
+        />
+
+    <item android:title="About"
+        android:id="@+id/nav_item_draft"
+        />
+
+
+        <item
+            android:title="Privary Policy"
+            />
+        <item
+            android:title="Terms &amp; Conditions"
+            />
+
+
+    <item android:title=" Report a problem" />
+    <item android:title="Contact" />
+    <item android:title=" Log out" />
+
+
+
+</menu>

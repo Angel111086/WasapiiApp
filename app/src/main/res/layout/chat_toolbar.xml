@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:titleTextColor="@android:color/black"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        android:id="@+id/toolbar">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:materialIcon="arrow_left_bold_circle_outline"
+            app:materialIconColor="@android:color/black"
+            app:materialIconSize="24dp"
+            android:scaleType="center"
+            android:id="@+id/btn_back" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/iconlist"
+            android:layout_centerVertical="true"
+            android:id="@+id/profile_pic"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@android:color/transparent"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="username"
+            android:textSize="20sp"
+            android:paddingRight="20dp"
+            android:paddingLeft="5dp"
+            android:titleTextColor="@android:color/black"
+            android:gravity = "left"
+            android:id="@+id/toolbar_title" />
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

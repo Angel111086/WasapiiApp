@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@android:color/white"
+    tools:context=".SignUpNameActivity">
+
+
+    <ImageView
+        android:id="@+id/tv_label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/txt_logo"
+        android:text="Wasapii"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="What do you enjoy talking about?"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Let people around you know what you fancy talking about. You can change these depending on how you feel everyday..."/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.wasapii.adisoftin.customview.HashTagEditText
+                android:id="@+id/tag_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_hastag"
+                android:drawableLeft="@drawable/search_icon"
+                android:drawablePadding="5dp"
+                app:bubbleTextColor="@color/light_blue"
+                app:bubbleTextSize="16sp"
+                app:horizontalPadding="8dp"
+                app:horizontalSpacing="2dp"
+                app:maxSize="50"
+                app:verticalPadding="4dp"
+                app:verticalSpacing="2dp"/>
+
+             <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/music_tag"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/light_blue"
+                      android:text="@string/music"
+                      android:padding="5dp"
+                      android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                  <TextView
+                      android:id="@+id/lifestyle_tag"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/light_blue"
+                      android:text="@string/lifestyle"
+                      android:padding="5dp"
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                  <TextView
+                      android:id="@+id/animals_tag"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/light_blue"
+                      android:text="@string/animals"
+                      android:padding="5dp"
+                      android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                  <TextView
+                      android:id="@+id/sports_tag"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/light_blue"
+                      android:text="@string/sports"
+                      android:padding="5dp"
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginRight="5dp"
+                      android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+              </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nonprofit_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Nonprofit"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/literature_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/literature"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/cinema_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Cinema"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/arts_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Arts"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+
+
+
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/technology_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Technology"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+
+                <TextView
+                    android:id="@+id/gaming_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Gaming"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/entertainment_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Entertainment"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+
+
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/politics_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Politics"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/photography_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Photography"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+                <TextView
+                    android:id="@+id/traveling_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_blue"
+                    android:text="@string/Traveling"
+                    android:padding="5dp"
+                    android:background="@drawable/rounded_blue_transparent_btn"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_blue_btn"
+            android:layout_gravity="right"/>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_redirectToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textColor="@color/light_blue"
+            android:text="Already have an account? Log in"/>
+
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

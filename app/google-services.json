@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59090415168",
+    "firebase_url": "https://wasapii-faab8.firebaseio.com",
+    "project_id": "wasapii-faab8",
+    "storage_bucket": "wasapii-faab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59090415168:android:a12832d4683fec82",
+        "android_client_info": {
+          "package_name": "com.adisoftin.wasapii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59090415168-4jj7378t4rb9r0dmukrmbklu4llpu99b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adisoftin.wasapii",
+            "certificate_hash": "ecd9dae676b8c188a584d0622805a4c4f810179e"
+          }
+        },
+        {
+          "client_id": "59090415168-j2f8j813j59f9ou1vgakmcqrqrmcnpd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMOERVh6UGQkpUp_Fg51sLXalxbcT5ZMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59090415168-j2f8j813j59f9ou1vgakmcqrqrmcnpd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

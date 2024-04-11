@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Wasapii</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_hastag">#Add Your Interests</string>
+    <string name="hint_forgot_password">Forgot Password</string>
+    <string name="hint_filter">Filter</string>
+    <string name="hint_mobile">Phone</string>
+
+    <!--<string name="google_maps_key">AIzaSyAk-tBbScTdVL9A7irvDaHksDLNo3MvRSE</string>-->
+
+    <!--<string name="google_maps_key">AIzaSyAMOERVh6UGQkpUp_Fg51sLXalxbcT5ZMY</string>-->
+    <string name="google_maps_api_key">AIzaSyCOmhzWxOJKk0X0SvzT1YrKTdro2CuDM8Q </string>
+
+    <string name="tc_content">By signing up you agree to the <u>Terms of service &amp; Privacy Policy</u>.including <u>Cookie Policy</u>.</string>
+
+
+    <string name="content_forgot_password">Please enter your email here to get a new password</string>
+
+    <string name="no_internet_connection">Please check your internet connection.</string>
+    <string name="music">#Music</string>
+    <string name="lifestyle">#Lifestyle</string>
+    <string name="animals">#Animals</string>
+    <string name="sports">#Sports</string>
+    <string name="Nonprofit">#Nonprofit</string>
+    <string name="literature">#Literature</string>
+    <string name="Cinema">#Cinema</string>
+    <string name="Arts">#Arts</string>
+    <string name="Technology">#Technology</string>
+    <string name="Politics">#Politics</string>
+    <string name="Gaming">#Gaming</string>
+    <string name="Entertainment">#Entertainment</string>
+    <string name="Photography">#Photography</string>
+    <string name="Traveling">#Traveling</string>
+
+
+    <string name="facebook_app_id">1747666881927055</string>
+    <string name="fb_login_protocol_scheme">fb1747666881927055</string>
+
+    <string name="about">
+Wasapii is a cross-platform application for smartphones.Our purpose is to get
+you to meet all people next to you and then get off the phone!There are No Friend Requests and No Follows, just because we are not, yet again, another social network."
+
+See all people within 100m close to you, find common interests, see their photos, think about the perfect ice-breaker and meet your next best friend, chill buddy, love of your life, etc. Contact them while you can – they might walk away and miss your only chance!
+
+Chat and meet in real – then get off the phone! Because life is more beautiful outside our phones …"
+
+\n\n
+Enjoy!\n
+Team Wasapii
+
+
+    </string>
+
+</resources>

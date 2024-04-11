@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.wasapii.adisoftin.SettingsActivity">
+
+
+
+    <include layout="@layout/toolbar"> </include>
+
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@android:color/black" />
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Account"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="@android:color/black"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="15dp"
+
+          />
+
+
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="Add Phone"
+            android:fontFamily="@string/hint_email"
+            />
+
+    <EditText
+        android:id="@+id/et_old_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Old Password"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:fontFamily="@string/hint_email"
+        />
+
+
+    <EditText
+        android:id="@+id/et_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:hint="New Password"
+        android:fontFamily="@string/hint_email"
+        />
+
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="16"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:fontFamily="@string/hint_email"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rouned_red_btn"/>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rouned_red_btn"/>
+
+    </FrameLayout>
+
+</LinearLayout>

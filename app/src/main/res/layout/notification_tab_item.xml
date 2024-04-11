@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/notification_seletor"
+        android:id="@+id/noti_badge"
+        />
+<!--For Badge-->
+    <TextView
+        android:id="@+id/new_notifications"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/primary_text_dark"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:textColor="@android:color/tab_indicator_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>

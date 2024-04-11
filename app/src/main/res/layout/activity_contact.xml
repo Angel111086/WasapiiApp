@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.wasapii.adisoftin.ContactActivity">
+
+
+
+    <include layout="@layout/toolbar"> </include>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:materialIcon="phone"
+            app:materialIconColor="@android:color/black"
+            app:materialIconSize="24dp"
+            android:scaleType="center"
+            android:id="@+id/btn_back" />
+
+        <TextView
+            android:id="@+id/tv_mobile_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="+91 0123456789"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black">
+
+    </View>
+
+
+    <LinearLayout
+        android:id="@+id/layout_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:materialIcon="email"
+            app:materialIconColor="@android:color/black"
+            app:materialIconSize="24dp"
+            android:scaleType="center"
+            android:id="@+id/btn_phone" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="test@gmail.com"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black">
+
+    </View>
+
+
+    <LinearLayout
+        android:id="@+id/layout_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:materialIcon="web"
+            app:materialIconColor="@android:color/black"
+            app:materialIconSize="24dp"
+            android:scaleType="center"
+            android:id="@+id/btn_mail" />
+
+        <TextView
+            android:id="@+id/tv_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="http://www.example.com"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black">
+
+    </View>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Compose" android:id="@+id/navigation_item_2"
+       ></item>
+    <item android:title="Inbox"  ></item>
+    <item android:title="Sent"></item>
+    <item android:title="Drafts" ></item>
+
+
+
+
+
+            <item
+                android:title="Spam" />
+            <item
+                android:title="Bin" />
+
+
+
+
+
+        <item android:title="Settings"></item>
+        <item android:title="Help" ></item>
+
+
+
+
+
+
+</menu>
